@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "opsinstance" {
-  bucket = "s3-iac-opsamazonq"
+  bucket = "s3-iac-opsamazonq1"
   #acl    = "aws_s3_bucket_acl"
 
   tags = {
