@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_s3_bucket" "opsinstance" {
   bucket = "s3-iac-opsamazonq"
-  acl    = "private"
+  acl    = "aws_s3_bucket_acl"
 
   tags = {
     Environment = "Dev"
